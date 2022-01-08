@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BookListItem" extends="BaseComponent">
+  <interface>
+    <field id="itemContent" type="node" onChange="OnContentSet" />
+  </interface>
+  <script type = "text/brightscript" uri = "BookListItem.brs" />
+
+  <children>
+    <Poster id = "itemPoster" translation = "[10, 10]" loadDisplayMode="scaleToFill" />
+    <Label 
+      id = "itemTitle" wrap="true"
+      vertAlign = "top"  color="0x72D7EEFF"
+      translation = "[ 160, 20 ]" numLines="3"/>
+  </children>
+</component>

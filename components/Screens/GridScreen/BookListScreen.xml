@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="BookListScreen" extends="BaseScreen" initialFocus="RowList">
+    <script type="text/brightscript" uri="BookListScreen.brs" />
+    <interface>
+        <!-- Specifies the content for the Grid -->
+        <field id="content" type="node" alias="markupList.content" />
+        <field id="controller" type="node" />
+    </interface>
+    <children>
+        <MarkupList itemComponentName="BookListItem" id="markupList" numRows="4" vertFocusAnimationStyle="fixedFocusWrap" focusFootprintBitmapUri="pkg:/images/list_focus.9.png" focusBitmapUri="pkg:/images/list_focus.9.png"/>
+    </children>
+</component>

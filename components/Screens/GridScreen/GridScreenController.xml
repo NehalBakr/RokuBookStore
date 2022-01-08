@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="GridScreenController" extends="BaseController">
+
+<script type = "text/brightscript" uri = "GridScreenController.brs" />
+
+  <interface>
+        <field id="screen" type="node" />
+    </interface>
+
+<children>
+
+  </children>
+</component>
